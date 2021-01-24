@@ -1,0 +1,30 @@
+//ELEMENTS FONT STYLE
+h1, button {
+    font-family: 'Alegreya SC', serif;
+}
+
+#main-title {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: $white;
+    -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color:$title-brown;
+   font-size: 4rem;
+   font-weight: 500;
+}
+
+.generate-btn-typo {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.7;
+    color: $white;
+}
+
+.container {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Open Sans;
+    font-style: Italic;
+}
+
+

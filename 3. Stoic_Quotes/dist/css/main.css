@@ -1,0 +1,112 @@
+h1, button {
+  font-family: 'Alegreya SC', serif;
+}
+
+#main-title {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #606060;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.generate-btn-typo {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.container {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-style: Italic;
+}
+
+.container {
+  text-align: center;
+  margin: 4rem 4rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.generate-btn {
+  margin-bottom: 4rem;
+  position: fixed;
+  bottom: 10rem;
+  padding: 0.2rem 3rem;
+  border-radius: 15px;
+  background: #4F4843;
+  border: 3px solid #D0A687;
+}
+
+.generate-btn:hover {
+  background: #606060;
+  cursor: pointer;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: url("../../dist/img/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */

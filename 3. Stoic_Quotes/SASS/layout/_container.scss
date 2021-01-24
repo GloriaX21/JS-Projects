@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+    margin:4rem 4rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem; //2rem
+    background-color: $white;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

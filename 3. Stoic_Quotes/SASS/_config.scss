@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+    @include bgimage(cristina-gottardi-Pl8ZMtFiyi8-unsplash);
+  }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

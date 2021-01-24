@@ -1,0 +1,8 @@
+@mixin bgimage($name) {
+  $url:"../../dist/img/#{$name}.jpg";
+  background: url($url) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

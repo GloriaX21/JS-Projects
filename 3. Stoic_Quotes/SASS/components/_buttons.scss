@@ -1,0 +1,16 @@
+//---Generate Button---//
+.generate-btn {
+    margin-bottom: 4rem;
+    position: fixed;
+    //margin-top: 30rem;
+    bottom: 10rem;
+    padding: 0.2rem 3rem;
+    border-radius: 15px;
+    background: $button-brown;
+    border: 3px solid $button-mustard;
+
+    &:hover {
+        background: $title-brown;
+        cursor: pointer;
+    }
+}
