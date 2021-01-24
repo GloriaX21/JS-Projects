@@ -1,0 +1,180 @@
+/*-----GOOGLE FONTS-----*/
+   /*-----CASIO FONT - Orbitron Extra Bold*/
+   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+   /*-----ROBOTO--------------------------*/
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+/*----------------------*/
+
+/*------BOX SIZING-------*/
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+/*-----------------------*/
+
+/*-----COLOR VARIABLES-----*/
+:root {
+    --white: #fff;
+    --black: #000;
+    --grey: #A9A9A9;
+    --dark-grey: 	#606060;
+    --hover-grey: 		rgb(136,136,136);
+    --vintage-yellow: #FFF8DC;
+    --light-black: #303030;
+    --hover-black: rgb(56,56,56);
+    --aqua: #46B1EF;
+    --very-light-grey: #F0F0F0;
+    --red: rgb(216,0,0);
+    --hover-red:#f0595f;
+    --blue: #2e86c0;
+    --hover-blue: #33CCFF;
+}
+/*-------------------------*/
+
+/*----POSITIONING IN THE BODY----*/
+body {
+    background: var(--vintage-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*-------------------------------*/
+
+/*-----STYLING THE CALCULATOR-----*/
+
+    /*----Input Area Style----*/
+    .screen-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .casio-logo {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: var(--white);
+    background: linear-gradient(70deg, var(--black), var(--dark-grey));
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 5px outset var(--light-black);
+    }
+
+    .casio-logo h2{
+       font-family: 'Orbitron', sans-serif;
+    }
+
+    #casio-header {
+        font-family:'Roboto', sans-serif;    
+    }
+
+    .casio-logo p{
+        font-family: 'Roboto Light', sans-serif;
+        margin-top: 0.5rem;
+    }
+
+    .calculator-screen {
+        width: 100%;
+        height: 6rem;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-right: 5px outset var(--light-black);
+        border-left: 5px outset var(--light-black);
+        border-bottom: 5px outset var(--light-black);
+        border-top: none;
+        background: linear-gradient(70deg, var(--black), var(--light-black));
+        color: var(--aqua);
+        font-family: 'Orbitron Regular', sans-serif;
+        font-size: 3rem;
+        direction: rtl;
+        padding-right: 0.5rem;
+    }
+    /*------------------------*/
+
+    /*----STYLE CALCULATOR KEYS----*/
+    .calculator-keys {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        padding: 20px;
+        margin-top: 2rem; 
+        background: none;
+        width: 100%;
+    }
+
+.equal-sign {
+    /*grid-row-start: 2;
+    grid-row-end: 6; */
+    grid-row: 2/6;
+    /*
+    grid-column-start: 4;
+    grid-column-end: 5; */
+    grid-column: 4/5;
+    height: 100%;
+}
+
+     button {
+         height: 50px;
+         border-radius: 10px;
+         font-size: 2rem;
+         color: var(--white);
+         background:var(--black);
+         text-align: center;
+     }
+
+     button:hover {
+         background: var(--hover-black);
+     }
+
+    .operator {
+       background-color: var(--dark-grey);
+    }
+
+    .operator:hover{
+        background-color: var(--hover-grey);
+    }
+
+    .all-clear {
+        background: var(--red);
+    }
+
+    .all-clear:hover{
+        background: var(--hover-red);
+    }
+
+    .equal-sign {
+        background: var(--blue);
+    }
+
+    .equal-sign:hover{
+        background: var(--hover-blue);
+    }
+    /*-----------------------------*/
+
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  background: linear-gradient(70deg, var(--very-light-grey), var(--grey));
+  width: 400px;
+  margin: 10rem 0;
+  border: 6px groove var(--black);
+  padding: 3rem 2rem;
+  border-radius: 20px;
+}
+/*--------------------------------*/
